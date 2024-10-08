@@ -112,1206 +112,1203 @@ body {
 
 /* ===============================MOVE========================= */
 .solar-system {
-    margin: auto;
-    position: relative;
-    width: 1180px;
-    height: 940px;
-  }
-  
-  .sun {
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .earth-orbit {
-    position: absolute;
-    top: 26%;
-    left: 31%;
-    width: 750px;
-    height: 750px;
-    margin: -150px 0 0 -150px;
-    border: 2px dashed red;
-    border-radius: 50%;
-    animation: earthOrbit 60s linear infinite;
-  }
-  
-  .earth {
-    border-radius: 50%;
-    position: absolute;
-    top: 47.5%;
-    left: 67%;
-    transform: translateX(-371%);
-  }
-  
-  .moon-orbit {
-    position: absolute;
-    top: 37%;
-    left: 37%;
-    width: 110px;
-    height: 110px;
-    margin: -50px 0 0 -50px;
-    border: 1px dashed blue;
-    border-radius: 50%;
-    animation: moonOrbit 4s linear infinite;
-  }
-  
-  .moon {
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-160%);
-  }
-  
-  @keyframes earthOrbit {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes moonOrbit {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  
-  
-  /* ===============================ASIA=============================== */
-  .asia__area {
-    background-color: #fff596;
-  }
-  /* ===============================EUROPE=============================== */
-  .europe__area {
-    background-color: #ff6767;
-  }
-  /* ===============================AFRICA=============================== */
-  .africa__area {
-    background-color: #affaff;
-  }
-  /* ===============================AMERICA=============================== */
-  .america__area {
-    background-color: #c6ffb2;
-  }
-  /* ===============================AUSTRALIA=============================== */
-  .australia__area {
-    background-color: #b9c4ff;
-  }
-  
-  /* ===============================COUNTRY========================= */
-  /* Southeast Asia */
-  .myanmar {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .malaysia {
-    transform: rotate(32.73deg) translate(375px);
-  }
-  
-  .vietnam {
-    transform: rotate(65.46deg) translate(375px);
-  }
-  
-  .laos {
-    transform: rotate(98.19deg) translate(375px);
-  }
-  
-  .indonesia {
-    transform: rotate(130.92deg) translate(375px);
-  }
-  
-  .thailand {
-    transform: rotate(163.65deg) translate(375px);
-  }
-  
-  .brunei {
-    transform: rotate(196.38deg) translate(375px);
-  }
-  
-  .singapore {
-    transform: rotate(229.11deg) translate(375px);
-  }
-  .philippines {
-    transform: rotate(261.84deg) translate(375px);
-  }
-  .timor--leste {
-    transform: rotate(294.57deg) translate(375px);
-  }
-  
-  .cambodia {
-    transform: rotate(327.3deg) translate(375px);
-  }
-  /* East Asia */
-  .macau {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .south--korea {
-    transform: rotate(45deg) translate(375px);
-  }
-  
-  .north--korea {
-    transform: rotate(90deg) translate(375px);
-  }
-  
-  .china {
-    transform: rotate(135deg) translate(375px);
-  }
-  
-  .taiwan {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .japan {
-    transform: rotate(225deg) translate(375px);
-  }
-  
-  .hong--kong {
-    transform: rotate(270deg) translate(375px);
-  }
-  
-  .mongolia {
-    transform: rotate(315deg) translate(375px);
-  }
-  
-  /* South Asia */
-  .bangladesh {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .india {
-    transform: rotate(40deg) translate(375px);
-  }
-  
-  .sri--lanka {
-    transform: rotate(80deg) translate(375px);
-  }
-  
-  .maldives {
-    transform: rotate(120deg) translate(375px);
-  }
-  
-  .bhutan {
-    transform: rotate(160deg) translate(375px);
-  }
-  
-  .pakistan {
-    transform: rotate(200deg) translate(375px);
-  }
-  
-  .nepal {
-    transform: rotate(240deg) translate(375px);
-  }
-  
-  .afghanistan {
-    transform: rotate(280deg) translate(375px);
-  }
-  
-  .iran {
-    transform: rotate(320deg) translate(375px);
-  }
-  
-  /* Central Asia */
-  .turkmenistan {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .tajikistan {
-    transform: rotate(72deg) translate(375px);
-  }
-  .kazakhstan {
-    transform: rotate(144deg) translate(375px);
-  }
-  
-  .kyrgyzstan {
-    transform: rotate(216deg) translate(375px);
-  }
-  
-  .uzbekistan {
-    transform: rotate(288deg) translate(375px);
-  }
-  
-  /* West Asia */
-  .saudi--arabia {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .azerbaijan {
-    transform: rotate(20deg) translate(375px);
-  }
-  
-  .united--arab--emirates {
-    transform: rotate(40deg) translate(375px);
-  }
-  
-  .iraq {
-    transform: rotate(60deg) translate(375px);
-  }
-  
-  .jordan {
-    transform: rotate(80deg) translate(375px);
-  }
-  
-  .liban {
-    transform: rotate(100deg) translate(375px);
-  }
-  
-  .state--of--palestine {
-    transform: rotate(120deg) translate(375px);
-  }
-  
-  .republic--of--cyprus {
-    transform: rotate(140deg) translate(375px);
-  }
-  
-  .moon__northern--cyprus {
-    top: 594%;
-    left: -678%;
-  }
-  
-  .turkey {
-    transform: rotate(160deg) translate(375px);
-  }
-  
-  .armenia {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .bahrain {
-    transform: rotate(200deg) translate(375px);
-  }
-  
-  .israel {
-    transform: rotate(220deg) translate(375px);
-  }
-  
-  .gruzia {
-    transform: rotate(240deg) translate(375px);
-  }
-  
-  .moon--south--ossetia {
-    top: -722%;
-    left: -426%;
-  }
-  .kuwait {
-    transform: rotate(260deg) translate(375px);
-  }
-  
-  .oman {
-    transform: rotate(280deg) translate(375px);
-  }
-  
-  .qatar {
-    transform: rotate(300deg) translate(375px);
-  }
-  
-  .syria {
-    transform: rotate(320deg) translate(375px);
-  }
-  
-  .yemen {
-    transform: rotate(340deg) translate(375px);
-  }
-  
-  /* Eastern-Europe */
-  .russia {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .moon__republic--of--crimea {
-    top: 35%;
-    left: 976%;
-  }
-  .poland {
-    transform: rotate(27.7deg) translate(375px);
-  }
-  
-  .belarus {
-    transform: rotate(55.4deg) translate(375px);
-  }
-  .moldova {
-    transform: rotate(83.1deg) translate(375px);
-  }
-  
-  .moon--ransnistria {
-    top: 900%;
-    left: 152%;
-  }
-  
-  .latvia {
-    transform: rotate(110.8deg) translate(375px);
-  }
-  
-  .romania {
-    transform: rotate(138.5deg) translate(375px);
-  }
-  
-  .litva {
-    transform: rotate(166.2deg) translate(375px);
-  }
-  
-  .estonia {
-    transform: rotate(193.9deg) translate(375px);
-  }
-  
-  .hungary {
-    transform: rotate(221.6deg) translate(375px);
-  }
-  
-  .czech--republic {
-    transform: rotate(249.3deg) translate(375px);
-  }
-  
-  .bulgaria {
-    transform: rotate(277deg) translate(375px);
-  }
-  
-  .slovakia {
-    transform: rotate(304.7deg) translate(375px);
-  }
-  
-  .ukraina {
-    transform: rotate(332.4deg) translate(375px);
-  }
-  
-  /* Western-Europe */
-  
-  .liechtenstein {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .netherlands {
-    transform: rotate(36deg) translate(375px);
-  }
-  
-  .austria {
-    transform: rotate(72deg) translate(375px);
-  }
-  
-  .france {
-    transform: rotate(108deg) translate(375px);
-  }
-  
-  .monaco {
-    transform: rotate(144deg) translate(375px);
-  }
-  
-  .switzerland {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .luxembourg {
-    transform: rotate(216deg) translate(375px);
-  }
-  
-  .belgium {
-    transform: rotate(252deg) translate(375px);
-  }
-  
-  .germany {
-    transform: rotate(324deg) translate(375px);
-  }
-  
-  .england {
-    transform: rotate(288deg) translate(375px);
-  }
-  
-  .moon__republic--of--ireland {
-    top: -794%;
-    left: 333%;
-  }
-  
-  .earth__western--europe {
-    top: 47%;
-    left: 68%;
-  }
-  
-  /* Northern-Europe */
-  
-  .sweden {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .norway {
-    transform: rotate(51.43deg) translate(375px);
-  }
-  
-  .denmark1 {
-    transform: rotate(102.86deg) translate(375px);
-  }
-  
-  .aland {
-    transform: rotate(154.29deg) translate(375px);
-  }
-  
-  .iceland {
-    transform: rotate(205.72deg) translate(375px);
-  }
-  
-  .finland {
-    transform: rotate(257.15deg) translate(375px);
-  }
-  
-  .faroe--islands {
-    transform: rotate(308.58deg) translate(375px);
-  }
-  
-  /* Southern-Europe */
-  .montenegro {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .san--marino {
-    transform: rotate(22.5deg) translate(375px);
-  }
-  
-  .slovenia {
-    transform: rotate(45deg) translate(375px);
-  }
-  
-  .north--macedonia {
-    transform: rotate(67.5deg) translate(375px);
-  }
-  
-  .bosna--and--hercegovina {
-    transform: rotate(90deg) translate(375px);
-  }
-  
-  .croatia {
-    transform: rotate(112.5deg) translate(375px);
-  }
-  
-  .serbia {
-    transform: rotate(135deg) translate(375px);
-  }
-  
-  .andorra {
-    transform: rotate(157.5deg) translate(375px);
-  }
-  
-  .vatican--city {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .greece {
-    transform: rotate(202.5deg) translate(375px);
-  }
-  
-  .italy {
-    transform: rotate(225deg) translate(375px);
-  }
-  
-  .spain {
-    transform: rotate(247.5deg) translate(375px);
-  }
-  
-  .albania {
-    transform: rotate(270deg) translate(375px);
-  }
-  
-  .portugal {
-    transform: rotate(292.5deg) translate(375px);
-  }
-  
-  .kosovo {
-    transform: rotate(315deg) translate(375px);
-  }
-  
-  .malta {
-    transform: rotate(337.5deg) translate(375px);
-  }
-  
-  /* North--Africa */
-  .maroc {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .sahrawi--arab--democratic--republic {
-    transform: rotate(51.43deg) translate(375px);
-  }
-  
-  .tunisia {
-    transform: rotate(102.86deg) translate(375px);
-  }
-  
-  .sudan {
-    transform: rotate(154.29deg) translate(375px);
-  }
-  
-  .algérie {
-    transform: rotate(205.72deg) translate(375px);
-  }
-  
-  .libya {
-    transform: rotate(257.15deg) translate(375px);
-  }
-  
-  .egypt {
-    transform: rotate(308.58deg) translate(375px);
-  }
-  
-  /* East--Africa */
-  .uganda {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .réunion {
-    transform: rotate(27.7deg) translate(375px);
-  }
-  
-  .madagascar {
-    transform: rotate(55.4deg) translate(375px);
-  }
-  
-  .somalia {
-    transform: rotate(83.1deg) translate(375px);
-  }
-  
-  .moon__somaliland {
-    top: 898%;
-    left: 148%;
-  }
-  
-  .mozambique {
-    transform: rotate(110.8deg) translate(375px);
-  }
-  
-  .mauritius {
-    transform: rotate(138.5deg) translate(375px);
-  }
-  
-  .seychelles {
-    transform: rotate(166.2deg) translate(375px);
-  }
-  
-  .comoros {
-    transform: rotate(193.9deg) translate(375px);
-  }
-  
-  .ethiopia {
-    transform: rotate(221.6deg) translate(375px);
-  }
-  
-  .eritrea {
-    transform: rotate(249.3deg) translate(375px);
-  }
-  
-  .kenya {
-    transform: rotate(277deg) translate(375px);
-  }
-  
-  .djibouti {
-    transform: rotate(304.7deg) translate(375px);
-  }
-  
-  .tanzania {
-    transform: rotate(332.4deg) translate(375px);
-  }
-  
-  /* Central--Africa */
-  .south--sudan {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .são--tomé--and--príncipe {
-    transform: rotate(25.7deg) translate(375px);
-  }
-  
-  .burundi {
-    transform: rotate(51.4deg) translate(375px);
-  }
-  
-  .malawi {
-    transform: rotate(77.1deg) translate(375px);
-  }
-  
-  .rwanda {
-    transform: rotate(102.8deg) translate(375px);
-  }
-  
-  .zambia {
-    transform: rotate(128.5deg) translate(375px);
-  }
-  
-  .democratic--republic--of--the--congo {
-    transform: rotate(154.2deg) translate(375px);
-  }
-  
-  .tchad {
-    transform: rotate(179.9deg) translate(375px);
-  }
-  
-  .central--african--republic {
-    transform: rotate(205.6deg) translate(375px);
-  }
-  
-  .cameroon {
-    transform: rotate(231.3deg) translate(375px);
-  }
-  
-  .angola {
-    transform: rotate(257deg) translate(375px);
-  }
-  
-  .republic--of--the--congo {
-    transform: rotate(282.7deg) translate(375px);
-  }
-  
-  .equatorial--guinea {
-    transform: rotate(308.4deg) translate(375px);
-  }
-  
-  .gabon {
-    transform: rotate(334.1deg) translate(375px);
-  }
-  
-  /* West--Africa */
-  
-  .nigeria {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .ivory--coast {
-    transform: rotate(22.5deg) translate(375px);
-  }
-  
-  .sénégal {
-    transform: rotate(45deg) translate(375px);
-  }
-  
-  .bénin {
-    transform: rotate(67.5deg) translate(375px);
-  }
-  
-  .burkina--faso {
-    transform: rotate(90deg) translate(375px);
-  }
-  
-  .guinée {
-    transform: rotate(112.5deg) translate(375px);
-  }
-  
-  .liberia {
-    transform: rotate(135deg) translate(375px);
-  }
-  
-  .guiné--bissau {
-    transform: rotate(157.5deg) translate(375px);
-  }
-  
-  .gambia {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .mali {
-    transform: rotate(202.5deg) translate(375px);
-  }
-  
-  .niger {
-    transform: rotate(225deg) translate(375px);
-  }
-  
-  .cabo--verde {
-    transform: rotate(247.5deg) translate(375px);
-  }
-  
-  .sierra--leone {
-    transform: rotate(270deg) translate(375px);
-  }
-  
-  .ghana {
-    transform: rotate(292.5deg) translate(375px);
-  }
-  
-  .togo {
-    transform: rotate(315deg) translate(375px);
-  }
-  
-  .mauritanie {
-    transform: rotate(337.5deg) translate(375px);
-  }
-  
-  /* South--Africa */
-  .republic--of--south--africa {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .zimbabwe {
-    transform: rotate(60deg) translate(375px);
-  }
-  
-  .eswatini {
-    transform: rotate(120deg) translate(375px);
-  }
-  
-  .lesotho {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .namibia {
-    transform: rotate(240deg) translate(375px);
-  }
-  
-  .botswana {
-    transform: rotate(300deg) translate(375px);
-  }
-  
-  /* North-America */
-  .canada {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .denmark2 {
-    transform: rotate(90deg) translate(375px);
-  }
-  
-  .moon__greenland {
-    top: 901%;
-    left: 37%;
-  }
-  
-  .united--states1 {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .mexico {
-    transform: rotate(270deg) translate(375px);
-  }
-  
-  /* Central-America */
-  
-  .costa--rica {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .nicaragua {
-    transform: rotate(51.43deg) translate(375px);
-  }
-  
-  .honduras {
-    transform: rotate(102.86deg) translate(375px);
-  }
-  
-  .guatemala {
-    transform: rotate(154.29deg) translate(375px);
-  }
-  
-  .el--salvador {
-    transform: rotate(205.72deg) translate(375px);
-  }
-  
-  .belize {
-    transform: rotate(257.15deg) translate(375px);
-  }
-  
-  .panama {
-    transform: rotate(308.58deg) translate(375px);
-  }
-  
-  /* Caribbean */
-  .turks--and--caicos--islands {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .dominica {
-    transform: rotate(20deg) translate(375px);
-  }
-  
-  .haiti {
-    transform: rotate(40deg) translate(375px);
-  }
-  
-  .grenada {
-    transform: rotate(60deg) translate(375px);
-  }
-  
-  .saint--kitts--and--nevis {
-    transform: rotate(80deg) translate(375px);
-  }
-  
-  .antigua--and--barbuda {
-    transform: rotate(100deg) translate(375px);
-  }
-  
-  .england1 {
-    transform: rotate(120deg) translate(375px);
-  }
-  
-  .moon__cayman--islands {
-    top: 787%;
-    left: -431%;
-  }
-  
-  .trinidad--and--tobago {
-    transform: rotate(140deg) translate(375px);
-  }
-  
-  .barbados {
-    transform: rotate(160deg) translate(375px);
-  }
-  
-  .aruba {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .saint--lucia {
-    transform: rotate(200deg) translate(375px);
-  }
-  
-  .netherlands1 {
-    transform: rotate(220deg) translate(375px);
-  }
-  
-  .moon__dutch--caribbean {
-    top: -528%;
-    left: -678%;
-  }
-  .cuba {
-    transform: rotate(240deg) translate(375px);
-  }
-  
-  .dominican--republic {
-    transform: rotate(260deg) translate(375px);
-  }
-  
-  .france1 {
-    transform: rotate(280deg) translate(375px);
-  }
-  
-  .moon__martinique {
-    top: -821%;
-    left: 199%;
-  }
-  
-  .moon__guadeloupe {
-    top: 75%;
-    left: 115%;
-  }
-  
-  .saint--vincent--and--the--grenadines {
-    transform: rotate(300deg) translate(375px);
-  }
-  
-  .the--bahamas {
-    transform: rotate(320deg) translate(375px);
-  }
-  
-  .jamaica {
-    transform: rotate(340deg) translate(375px);
-  }
-  
-  /* South-America */
-  
-  .paraguay {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .suriname {
-    transform: rotate(25.7deg) translate(375px);
-  }
-  
-  .uruguay {
-    transform: rotate(51.4deg) translate(375px);
-  }
-  
-  .ecuador {
-    transform: rotate(77.1deg) translate(375px);
-  }
-  
-  .colombia {
-    transform: rotate(102.8deg) translate(375px);
-  }
-  
-  .france2 {
-    transform: rotate(128.5deg) translate(375px);
-  }
-  
-  .moon__guyane {
-    top: 713%;
-    left: -546%;
-  }
-  .chile {
-    transform: rotate(154.2deg) translate(375px);
-  }
-  
-  .perú {
-    transform: rotate(179.9deg) translate(375px);
-  }
-  
-  .bolivia {
-    transform: rotate(205.6deg) translate(375px);
-  }
-  
-  .brasil {
-    transform: rotate(231.3deg) translate(375px);
-  }
-  
-  .england2 {
-    transform: rotate(257deg) translate(375px);
-  }
-  
-  .moon__south--georgia--and--the--south--sandwich--islands {
-    top: -820%;
-    left: -171%;
-  }
-  
-  .moon__falkland--islands {
-    top: 81%;
-    left: 106%;
-  }
-  .venezuela {
-    transform: rotate(282.7deg) translate(375px);
-  }
-  
-  .argentina {
-    transform: rotate(308.4deg) translate(375px);
-  }
-  
-  .guyana {
-    transform: rotate(334.1deg) translate(375px);
-  }
-  
-  /* australasia */
-  .australia1 {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .moon__norfolk--island {
-    top: 35%;
-    left: 977%;
-  }
-  
-  .new--zealand {
-    transform: rotate(180deg) translate(375px);
-  }
-  
-  .moon__tokelau {
-    top: 33%;
-    left: -896%;
-  }
-  
-  .moon__cook--islands {
-    top: 76%;
-    left: 116%;
-  }
-  
-  /* Melanesia */
-  
-  .vanuatu {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .solomon--islands {
-    transform: rotate(72deg) translate(375px);
-  }
-  
-  .papua--new--guinea {
-    transform: rotate(144deg) translate(375px);
-  }
-  
-  .fiji {
-    transform: rotate(216deg) translate(375px);
-  }
-  
-  .france3 {
-    transform: rotate(288deg) translate(375px);
-  }
-  
-  .moon__nouvelle--calédonie {
-    top: -797%;
-    left: 325%;
-  }
-  
-  /* Micronesia */
-  .federated--states--of--micronesia {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .nauru {
-    transform: rotate(72deg) translate(375px);
-  }
-  
-  .palau {
-    transform: rotate(144deg) translate(375px);
-  }
-  
-  .marshall--islands {
-    transform: rotate(216deg) translate(375px);
-  }
-  
-  .kiribati {
-    transform: rotate(288deg) translate(375px);
-  }
-  
-  /* Polynesia */
-  
-  .england3 {
-    transform: rotate(0deg) translate(375px);
-  }
-  
-  .moon__pitcairn {
-    top: 36%;
-    left: 976%;
-  }
-  .samoa {
-    transform: rotate(51.43deg) translate(375px);
-  }
-  
-  .france4 {
-    transform: rotate(102.86deg) translate(375px);
-  }
-  
-  .moon__wallis--and--futuna {
-    top: 884%;
-    left: -169%;
-  }
-  
-  .moon__polynésie {
-    top: 75%;
-    left: 109%;
-  }
-  .united--states {
-    transform: rotate(257.15deg) translate(375px);
-  }
-  
-  .moon__guam {
-    top: -819%;
-    left: -170%;
-  }
-  
-  .moon__samoaa {
-    top: 79%;
-    left: 112%;
-  }
-  
-  .moon__hawaii {
-    top: 6%;
-    left: 122%;
-  }
-  
-  .moon__northern--mariana--islands {
-    top: 71%;
-    left: 42%;
-  }
-  
-  .tuvalu {
-    transform: rotate(205.72deg) translate(375px);
-  }
-  
-  .tonga {
-    transform: rotate(154.29deg) translate(375px);
-  }
-  
-  .niue {
-    transform: rotate(308.58deg) translate(375px);
-  }
-  
-  /* ===============================FOOTER===============================  */
-  .footer {
-    background-color: #10375c;
-    height: 600px;
-  }
-  
-  .footer-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 0 0 0;
-  }
-  
-  .footer-top__column1 {
-    width: 327px;
-    font-family: Open Sans;
-    margin: -34px 0 0 0;
-  }
-  
-  .footer__p--first {
-    font-size: 1.6rem;
-    color: #a9b3bb;
-    margin: 35px 0 0 0;
-  }
-  
-  .p__bold {
-    font-size: 1.8rem;
-    font-weight: 800;
-  }
-  
-  .footer__p--second {
-    margin: 50px 0 0 0;
-  }
-  
-  .footer__p--third {
-    width: 350px;
-    margin: 10px 0 0 0;
-    font-size: 1.8rem;
-    font-weight: 300;
-  }
-  
-  .footer__subscribe {
-    display: flex;
-    margin: 30px 0 0 0;
-    align-items: center;
-  }
-  
-  .footer__p--fourth {
-    width: 170px;
-    font-size: 1.6rem;
-    border: 1px solid #406181;
-    padding: 12px 16px 12px 16px;
-    font-family: Open Sans;
-  }
-  .footer__btn {
-    font-size: 1.8rem;
-    padding: 11px 14px 11px 14px;
-    border-radius: 5px;
-    margin: 0 0 0 10px;
-  }
-  
-  .information {
-    display: flex;
-    margin: 19px 0 19px 0;
-    color: #fff;
-  }
-  
-  .text {
-    margin: 0 0 0 10px;
-  }
-  
-  .fa-phone,
-  .fa-envelope,
-  .fa-location-dot,
-  .fa-graduation-cap,
-  .fa-shop,
-  .fa-hotel,
-  .fa-music,
-  .fa-building-columns {
-    color: #fff;
-  }
-  
-  .footer__img--techcombank {
-    margin: 20px 0 0 0;
-    background-image: url();
-  }
-  
-  .footer-bottom {
-    width: 947px;
-    border-top: 1px solid #406181;
-    margin: 43px 98px 0 117px;
-  }
-  
-  .footer__p--eighth {
-    padding: 28px 0 42px;
-    color: #aab3ba;
-    text-align: center;
-    font-size: 1.4rem;
-    line-height: 1.86;
-  }
-  
+  margin: auto;
+  position: relative;
+  width: 1180px;
+  height: 940px;
+}
+
+.sun {
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.earth-orbit {
+  position: absolute;
+  top: 26%;
+  left: 31%;
+  width: 750px;
+  height: 750px;
+  margin: -150px 0 0 -150px;
+  border: 2px dashed red;
+  border-radius: 50%;
+  animation: earthOrbit 200s linear infinite;
+}
+
+.earth {
+  border-radius: 50%;
+  position: absolute;
+  top: 47.5%;
+  left: 67%;
+  transform: translateX(-371%);
+}
+
+.moon-orbit {
+  position: absolute;
+  top: 37%;
+  left: 37%;
+  width: 110px;
+  height: 110px;
+  margin: -50px 0 0 -50px;
+  border: 1px dashed blue;
+  border-radius: 50%;
+  animation: moonOrbit 100s linear infinite;
+}
+
+.moon {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-160%);
+}
+
+@keyframes earthOrbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moonOrbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ===============================ASIA=============================== */
+.asia__area {
+  background-color: #fff596;
+}
+/* ===============================EUROPE=============================== */
+.europe__area {
+  background-color: #ff6767;
+}
+/* ===============================AFRICA=============================== */
+.africa__area {
+  background-color: #affaff;
+}
+/* ===============================AMERICA=============================== */
+.america__area {
+  background-color: #c6ffb2;
+}
+/* ===============================AUSTRALIA=============================== */
+.australia__area {
+  background-color: #b9c4ff;
+}
+
+/* ===============================COUNTRY========================= */
+/* Southeast Asia */
+.myanmar {
+  transform: rotate(0deg) translate(375px);
+}
+
+.malaysia {
+  transform: rotate(32.73deg) translate(375px);
+}
+
+.vietnam {
+  transform: rotate(65.46deg) translate(375px);
+}
+
+.laos {
+  transform: rotate(98.19deg) translate(375px);
+}
+
+.indonesia {
+  transform: rotate(130.92deg) translate(375px);
+}
+
+.thailand {
+  transform: rotate(163.65deg) translate(375px);
+}
+
+.brunei {
+  transform: rotate(196.38deg) translate(375px);
+}
+
+.singapore {
+  transform: rotate(229.11deg) translate(375px);
+}
+.philippines {
+  transform: rotate(261.84deg) translate(375px);
+}
+.timor--leste {
+  transform: rotate(294.57deg) translate(375px);
+}
+
+.cambodia {
+  transform: rotate(327.3deg) translate(375px);
+}
+/* East Asia */
+.macau {
+  transform: rotate(0deg) translate(375px);
+}
+
+.south--korea {
+  transform: rotate(45deg) translate(375px);
+}
+
+.north--korea {
+  transform: rotate(90deg) translate(375px);
+}
+
+.china {
+  transform: rotate(135deg) translate(375px);
+}
+
+.taiwan {
+  transform: rotate(180deg) translate(375px);
+}
+
+.japan {
+  transform: rotate(225deg) translate(375px);
+}
+
+.hong--kong {
+  transform: rotate(270deg) translate(375px);
+}
+
+.mongolia {
+  transform: rotate(315deg) translate(375px);
+}
+
+/* South Asia */
+.bangladesh {
+  transform: rotate(0deg) translate(375px);
+}
+
+.india {
+  transform: rotate(40deg) translate(375px);
+}
+
+.sri--lanka {
+  transform: rotate(80deg) translate(375px);
+}
+
+.maldives {
+  transform: rotate(120deg) translate(375px);
+}
+
+.bhutan {
+  transform: rotate(160deg) translate(375px);
+}
+
+.pakistan {
+  transform: rotate(200deg) translate(375px);
+}
+
+.nepal {
+  transform: rotate(240deg) translate(375px);
+}
+
+.afghanistan {
+  transform: rotate(280deg) translate(375px);
+}
+
+.iran {
+  transform: rotate(320deg) translate(375px);
+}
+
+/* Central Asia */
+.turkmenistan {
+  transform: rotate(0deg) translate(375px);
+}
+
+.tajikistan {
+  transform: rotate(72deg) translate(375px);
+}
+.kazakhstan {
+  transform: rotate(144deg) translate(375px);
+}
+
+.kyrgyzstan {
+  transform: rotate(216deg) translate(375px);
+}
+
+.uzbekistan {
+  transform: rotate(288deg) translate(375px);
+}
+
+/* West Asia */
+.saudi--arabia {
+  transform: rotate(0deg) translate(375px);
+}
+
+.azerbaijan {
+  transform: rotate(20deg) translate(375px);
+}
+
+.united--arab--emirates {
+  transform: rotate(40deg) translate(375px);
+}
+
+.iraq {
+  transform: rotate(60deg) translate(375px);
+}
+
+.jordan {
+  transform: rotate(80deg) translate(375px);
+}
+
+.liban {
+  transform: rotate(100deg) translate(375px);
+}
+
+.state--of--palestine {
+  transform: rotate(120deg) translate(375px);
+}
+
+.republic--of--cyprus {
+  transform: rotate(140deg) translate(375px);
+}
+
+.moon__northern--cyprus {
+  top: 604%;
+  left: -684%;
+}
+
+.turkey {
+  transform: rotate(160deg) translate(375px);
+}
+
+.armenia {
+  transform: rotate(180deg) translate(375px);
+}
+
+.bahrain {
+  transform: rotate(200deg) translate(375px);
+}
+
+.israel {
+  transform: rotate(220deg) translate(375px);
+}
+
+.gruzia {
+  transform: rotate(240deg) translate(375px);
+}
+
+.moon--south--ossetia {
+  top: -732%;
+  left: -432%;
+}
+.kuwait {
+  transform: rotate(260deg) translate(375px);
+}
+
+.oman {
+  transform: rotate(280deg) translate(375px);
+}
+
+.qatar {
+  transform: rotate(300deg) translate(375px);
+}
+
+.syria {
+  transform: rotate(320deg) translate(375px);
+}
+
+.yemen {
+  transform: rotate(340deg) translate(375px);
+}
+
+/* Eastern-Europe */
+.russia {
+  transform: rotate(0deg) translate(375px);
+}
+
+.moon__republic--of--crimea {
+  top: 35%;
+  left: 976%;
+}
+.poland {
+  transform: rotate(27.7deg) translate(375px);
+}
+
+.belarus {
+  transform: rotate(55.4deg) translate(375px);
+}
+.moldova {
+  transform: rotate(83.1deg) translate(375px);
+}
+
+.moon--ransnistria {
+  top: 906%;
+  left: 149%;
+}
+
+.latvia {
+  transform: rotate(110.8deg) translate(375px);
+}
+
+.romania {
+  transform: rotate(138.5deg) translate(375px);
+}
+
+.litva {
+  transform: rotate(166.2deg) translate(375px);
+}
+
+.estonia {
+  transform: rotate(193.9deg) translate(375px);
+}
+
+.hungary {
+  transform: rotate(221.6deg) translate(375px);
+}
+
+.czech--republic {
+  transform: rotate(249.3deg) translate(375px);
+}
+
+.bulgaria {
+  transform: rotate(277deg) translate(375px);
+}
+
+.slovakia {
+  transform: rotate(304.7deg) translate(375px);
+}
+
+.ukraina {
+  transform: rotate(332.4deg) translate(375px);
+}
+
+/* Western-Europe */
+
+.liechtenstein {
+  transform: rotate(0deg) translate(375px);
+}
+
+.netherlands {
+  transform: rotate(36deg) translate(375px);
+}
+
+.austria {
+  transform: rotate(72deg) translate(375px);
+}
+
+.france {
+  transform: rotate(108deg) translate(375px);
+}
+
+.monaco {
+  transform: rotate(144deg) translate(375px);
+}
+
+.switzerland {
+  transform: rotate(180deg) translate(375px);
+}
+
+.luxembourg {
+  transform: rotate(216deg) translate(375px);
+}
+
+.belgium {
+  transform: rotate(252deg) translate(375px);
+}
+
+.germany {
+  transform: rotate(324deg) translate(375px);
+}
+
+.england {
+  transform: rotate(288deg) translate(375px);
+}
+
+.moon__republic--of--ireland {
+  top: -800%;
+  left: 327%;
+}
+
+.earth__western--europe {
+  top: 47%;
+  left: 68%;
+}
+
+/* Northern-Europe */
+
+.sweden {
+  transform: rotate(0deg) translate(375px);
+}
+
+.norway {
+  transform: rotate(51.43deg) translate(375px);
+}
+
+.denmark1 {
+  transform: rotate(102.86deg) translate(375px);
+}
+
+.aland {
+  transform: rotate(154.29deg) translate(375px);
+}
+
+.iceland {
+  transform: rotate(205.72deg) translate(375px);
+}
+
+.finland {
+  transform: rotate(257.15deg) translate(375px);
+}
+
+.faroe--islands {
+  transform: rotate(308.58deg) translate(375px);
+}
+
+/* Southern-Europe */
+.montenegro {
+  transform: rotate(0deg) translate(375px);
+}
+
+.san--marino {
+  transform: rotate(22.5deg) translate(375px);
+}
+
+.slovenia {
+  transform: rotate(45deg) translate(375px);
+}
+
+.north--macedonia {
+  transform: rotate(67.5deg) translate(375px);
+}
+
+.bosna--and--hercegovina {
+  transform: rotate(90deg) translate(375px);
+}
+
+.croatia {
+  transform: rotate(112.5deg) translate(375px);
+}
+
+.serbia {
+  transform: rotate(135deg) translate(375px);
+}
+
+.andorra {
+  transform: rotate(157.5deg) translate(375px);
+}
+
+.vatican--city {
+  transform: rotate(180deg) translate(375px);
+}
+
+.greece {
+  transform: rotate(202.5deg) translate(375px);
+}
+
+.italy {
+  transform: rotate(225deg) translate(375px);
+}
+
+.spain {
+  transform: rotate(247.5deg) translate(375px);
+}
+
+.albania {
+  transform: rotate(270deg) translate(375px);
+}
+
+.portugal {
+  transform: rotate(292.5deg) translate(375px);
+}
+
+.kosovo {
+  transform: rotate(315deg) translate(375px);
+}
+
+.malta {
+  transform: rotate(337.5deg) translate(375px);
+}
+
+/* North--Africa */
+.maroc {
+  transform: rotate(0deg) translate(375px);
+}
+
+.sahrawi--arab--democratic--republic {
+  transform: rotate(51.43deg) translate(375px);
+}
+
+.tunisia {
+  transform: rotate(102.86deg) translate(375px);
+}
+
+.sudan {
+  transform: rotate(154.29deg) translate(375px);
+}
+
+.algérie {
+  transform: rotate(205.72deg) translate(375px);
+}
+
+.libya {
+  transform: rotate(257.15deg) translate(375px);
+}
+
+.egypt {
+  transform: rotate(308.58deg) translate(375px);
+}
+
+/* East--Africa */
+.uganda {
+  transform: rotate(0deg) translate(375px);
+}
+
+.réunion {
+  transform: rotate(27.7deg) translate(375px);
+}
+
+.madagascar {
+  transform: rotate(55.4deg) translate(375px);
+}
+
+.somalia {
+  transform: rotate(83.1deg) translate(375px);
+}
+
+.moon__somaliland {
+  top: 905%;
+  left: 148%;
+}
+
+.mozambique {
+  transform: rotate(110.8deg) translate(375px);
+}
+
+.mauritius {
+  transform: rotate(138.5deg) translate(375px);
+}
+
+.seychelles {
+  transform: rotate(166.2deg) translate(375px);
+}
+
+.comoros {
+  transform: rotate(193.9deg) translate(375px);
+}
+
+.ethiopia {
+  transform: rotate(221.6deg) translate(375px);
+}
+
+.eritrea {
+  transform: rotate(249.3deg) translate(375px);
+}
+
+.kenya {
+  transform: rotate(277deg) translate(375px);
+}
+
+.djibouti {
+  transform: rotate(304.7deg) translate(375px);
+}
+
+.tanzania {
+  transform: rotate(332.4deg) translate(375px);
+}
+
+/* Central--Africa */
+.south--sudan {
+  transform: rotate(0deg) translate(375px);
+}
+
+.são--tomé--and--príncipe {
+  transform: rotate(25.7deg) translate(375px);
+}
+
+.burundi {
+  transform: rotate(51.4deg) translate(375px);
+}
+
+.malawi {
+  transform: rotate(77.1deg) translate(375px);
+}
+
+.rwanda {
+  transform: rotate(102.8deg) translate(375px);
+}
+
+.zambia {
+  transform: rotate(128.5deg) translate(375px);
+}
+
+.democratic--republic--of--the--congo {
+  transform: rotate(154.2deg) translate(375px);
+}
+
+.tchad {
+  transform: rotate(179.9deg) translate(375px);
+}
+
+.central--african--republic {
+  transform: rotate(205.6deg) translate(375px);
+}
+
+.cameroon {
+  transform: rotate(231.3deg) translate(375px);
+}
+
+.angola {
+  transform: rotate(257deg) translate(375px);
+}
+
+.republic--of--the--congo {
+  transform: rotate(282.7deg) translate(375px);
+}
+
+.equatorial--guinea {
+  transform: rotate(308.4deg) translate(375px);
+}
+
+.gabon {
+  transform: rotate(334.1deg) translate(375px);
+}
+
+/* West--Africa */
+
+.nigeria {
+  transform: rotate(0deg) translate(375px);
+}
+
+.ivory--coast {
+  transform: rotate(22.5deg) translate(375px);
+}
+
+.sénégal {
+  transform: rotate(45deg) translate(375px);
+}
+
+.bénin {
+  transform: rotate(67.5deg) translate(375px);
+}
+
+.burkina--faso {
+  transform: rotate(90deg) translate(375px);
+}
+
+.guinée {
+  transform: rotate(112.5deg) translate(375px);
+}
+
+.liberia {
+  transform: rotate(135deg) translate(375px);
+}
+
+.guiné--bissau {
+  transform: rotate(157.5deg) translate(375px);
+}
+
+.gambia {
+  transform: rotate(180deg) translate(375px);
+}
+
+.mali {
+  transform: rotate(202.5deg) translate(375px);
+}
+
+.niger {
+  transform: rotate(225deg) translate(375px);
+}
+
+.cabo--verde {
+  transform: rotate(247.5deg) translate(375px);
+}
+
+.sierra--leone {
+  transform: rotate(270deg) translate(375px);
+}
+
+.ghana {
+  transform: rotate(292.5deg) translate(375px);
+}
+
+.togo {
+  transform: rotate(315deg) translate(375px);
+}
+
+.mauritanie {
+  transform: rotate(337.5deg) translate(375px);
+}
+
+/* South--Africa */
+.republic--of--south--africa {
+  transform: rotate(0deg) translate(375px);
+}
+
+.zimbabwe {
+  transform: rotate(60deg) translate(375px);
+}
+
+.eswatini {
+  transform: rotate(120deg) translate(375px);
+}
+
+.lesotho {
+  transform: rotate(180deg) translate(375px);
+}
+
+.namibia {
+  transform: rotate(240deg) translate(375px);
+}
+
+.botswana {
+  transform: rotate(300deg) translate(375px);
+}
+
+/* North-America */
+.canada {
+  transform: rotate(0deg) translate(375px);
+}
+
+.denmark2 {
+  transform: rotate(90deg) translate(375px);
+}
+
+.moon__greenland {
+  top: 901%;
+  left: 37%;
+}
+
+.united--states1 {
+  transform: rotate(180deg) translate(375px);
+}
+
+.mexico {
+  transform: rotate(270deg) translate(375px);
+}
+
+/* Central-America */
+
+.costa--rica {
+  transform: rotate(0deg) translate(375px);
+}
+
+.nicaragua {
+  transform: rotate(51.43deg) translate(375px);
+}
+
+.honduras {
+  transform: rotate(102.86deg) translate(375px);
+}
+
+.guatemala {
+  transform: rotate(154.29deg) translate(375px);
+}
+
+.el--salvador {
+  transform: rotate(205.72deg) translate(375px);
+}
+
+.belize {
+  transform: rotate(257.15deg) translate(375px);
+}
+
+.panama {
+  transform: rotate(308.58deg) translate(375px);
+}
+
+/* Caribbean */
+.turks--and--caicos--islands {
+  transform: rotate(0deg) translate(375px);
+}
+
+.dominica {
+  transform: rotate(20deg) translate(375px);
+}
+
+.haiti {
+  transform: rotate(40deg) translate(375px);
+}
+
+.grenada {
+  transform: rotate(60deg) translate(375px);
+}
+
+.saint--kitts--and--nevis {
+  transform: rotate(80deg) translate(375px);
+}
+
+.antigua--and--barbuda {
+  transform: rotate(100deg) translate(375px);
+}
+
+.england1 {
+  transform: rotate(120deg) translate(375px);
+}
+
+.moon__cayman--islands {
+  top: 787%;
+  left: -431%;
+}
+
+.trinidad--and--tobago {
+  transform: rotate(140deg) translate(375px);
+}
+
+.barbados {
+  transform: rotate(160deg) translate(375px);
+}
+
+.aruba {
+  transform: rotate(180deg) translate(375px);
+}
+
+.saint--lucia {
+  transform: rotate(200deg) translate(375px);
+}
+
+.netherlands1 {
+  transform: rotate(220deg) translate(375px);
+}
+
+.moon__dutch--caribbean {
+  top: -528%;
+  left: -678%;
+}
+.cuba {
+  transform: rotate(240deg) translate(375px);
+}
+
+.dominican--republic {
+  transform: rotate(260deg) translate(375px);
+}
+
+.france1 {
+  transform: rotate(280deg) translate(375px);
+}
+
+.moon__martinique {
+  top: -821%;
+  left: 199%;
+}
+
+.moon__guadeloupe {
+  top: 75%;
+  left: 115%;
+}
+
+.saint--vincent--and--the--grenadines {
+  transform: rotate(300deg) translate(375px);
+}
+
+.the--bahamas {
+  transform: rotate(320deg) translate(375px);
+}
+
+.jamaica {
+  transform: rotate(340deg) translate(375px);
+}
+
+/* South-America */
+
+.paraguay {
+  transform: rotate(0deg) translate(375px);
+}
+
+.suriname {
+  transform: rotate(25.7deg) translate(375px);
+}
+
+.uruguay {
+  transform: rotate(51.4deg) translate(375px);
+}
+
+.ecuador {
+  transform: rotate(77.1deg) translate(375px);
+}
+
+.colombia {
+  transform: rotate(102.8deg) translate(375px);
+}
+
+.france2 {
+  transform: rotate(128.5deg) translate(375px);
+}
+
+.moon__guyane {
+  top: 713%;
+  left: -546%;
+}
+.chile {
+  transform: rotate(154.2deg) translate(375px);
+}
+
+.perú {
+  transform: rotate(179.9deg) translate(375px);
+}
+
+.bolivia {
+  transform: rotate(205.6deg) translate(375px);
+}
+
+.brasil {
+  transform: rotate(231.3deg) translate(375px);
+}
+
+.england2 {
+  transform: rotate(257deg) translate(375px);
+}
+
+.moon__south--georgia--and--the--south--sandwich--islands {
+  top: -820%;
+  left: -171%;
+}
+
+.moon__falkland--islands {
+  top: 81%;
+  left: 106%;
+}
+.venezuela {
+  transform: rotate(282.7deg) translate(375px);
+}
+
+.argentina {
+  transform: rotate(308.4deg) translate(375px);
+}
+
+.guyana {
+  transform: rotate(334.1deg) translate(375px);
+}
+
+/* australasia */
+.australia1 {
+  transform: rotate(0deg) translate(375px);
+}
+
+.moon__norfolk--island {
+  top: 35%;
+  left: 977%;
+}
+
+.new--zealand {
+  transform: rotate(180deg) translate(375px);
+}
+
+.moon__tokelau {
+  top: 33%;
+  left: -896%;
+}
+
+.moon__cook--islands {
+  top: 76%;
+  left: 116%;
+}
+
+/* Melanesia */
+
+.vanuatu {
+  transform: rotate(0deg) translate(375px);
+}
+
+.solomon--islands {
+  transform: rotate(72deg) translate(375px);
+}
+
+.papua--new--guinea {
+  transform: rotate(144deg) translate(375px);
+}
+
+.fiji {
+  transform: rotate(216deg) translate(375px);
+}
+
+.france3 {
+  transform: rotate(288deg) translate(375px);
+}
+
+.moon__nouvelle--calédonie {
+  top: -797%;
+  left: 325%;
+}
+
+/* Micronesia */
+.federated--states--of--micronesia {
+  transform: rotate(0deg) translate(375px);
+}
+
+.nauru {
+  transform: rotate(72deg) translate(375px);
+}
+
+.palau {
+  transform: rotate(144deg) translate(375px);
+}
+
+.marshall--islands {
+  transform: rotate(216deg) translate(375px);
+}
+
+.kiribati {
+  transform: rotate(288deg) translate(375px);
+}
+
+/* Polynesia */
+
+.england3 {
+  transform: rotate(0deg) translate(375px);
+}
+
+.moon__pitcairn {
+  top: 36%;
+  left: 976%;
+}
+.samoa {
+  transform: rotate(51.43deg) translate(375px);
+}
+
+.france4 {
+  transform: rotate(102.86deg) translate(375px);
+}
+
+.moon__wallis--and--futuna {
+  top: 884%;
+  left: -169%;
+}
+
+.moon__polynésie {
+  top: 75%;
+  left: 109%;
+}
+.united--states {
+  transform: rotate(257.15deg) translate(375px);
+}
+
+.moon__guam {
+  top: -819%;
+  left: -170%;
+}
+
+.moon__samoaa {
+  top: 79%;
+  left: 112%;
+}
+
+.moon__hawaii {
+  top: 6%;
+  left: 122%;
+}
+
+.moon__northern--mariana--islands {
+  top: 71%;
+  left: 42%;
+}
+
+.tuvalu {
+  transform: rotate(205.72deg) translate(375px);
+}
+
+.tonga {
+  transform: rotate(154.29deg) translate(375px);
+}
+
+.niue {
+  transform: rotate(308.58deg) translate(375px);
+}
+
+/* ===============================FOOTER===============================  */
+.footer {
+  background-color: #10375c;
+  height: 600px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 0 0;
+}
+
+.footer-top__column1 {
+  width: 327px;
+  font-family: Open Sans;
+  margin: -34px 0 0 0;
+}
+
+.footer__p--first {
+  font-size: 1.6rem;
+  color: #a9b3bb;
+  margin: 35px 0 0 0;
+}
+
+.p__bold {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.footer__p--second {
+  margin: 50px 0 0 0;
+}
+
+.footer__p--third {
+  width: 350px;
+  margin: 10px 0 0 0;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.footer__subscribe {
+  display: flex;
+  margin: 30px 0 0 0;
+  align-items: center;
+}
+
+.footer__p--fourth {
+  width: 170px;
+  font-size: 1.6rem;
+  border: 1px solid #406181;
+  padding: 12px 16px 12px 16px;
+  font-family: Open Sans;
+}
+.footer__btn {
+  font-size: 1.8rem;
+  padding: 11px 14px 11px 14px;
+  border-radius: 5px;
+  margin: 0 0 0 10px;
+}
+
+.information {
+  display: flex;
+  margin: 19px 0 19px 0;
+  color: #fff;
+}
+
+.text {
+  margin: 0 0 0 10px;
+}
+
+.fa-phone,
+.fa-envelope,
+.fa-location-dot,
+.fa-graduation-cap,
+.fa-shop,
+.fa-hotel,
+.fa-music,
+.fa-building-columns {
+  color: #fff;
+}
+
+.footer__img--techcombank {
+  margin: 20px 0 0 0;
+  background-image: url();
+}
+
+.footer-bottom {
+  width: 947px;
+  border-top: 1px solid #406181;
+  margin: 43px 98px 0 117px;
+}
+
+.footer__p--eighth {
+  padding: 28px 0 42px;
+  color: #aab3ba;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
